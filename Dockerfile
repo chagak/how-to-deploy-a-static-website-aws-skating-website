@@ -7,7 +7,7 @@ FROM nginx
 # Copy static content (HTML, CSS, JS, etc.) into the Nginx default serving directory
 # For example, if you have a directory named "static" in the same directory as this Dockerfile,
 # you can copy its contents into the Nginx default serving directory as shown below:
-COPY ./static /usr/share/nginx/html
+COPY ./* /usr/share/nginx/html
 
 # Expose ports
 EXPOSE 80
