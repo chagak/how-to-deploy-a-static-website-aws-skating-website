@@ -68,7 +68,6 @@ This project demonstrates how to host a static HTML web application on AWS using
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/chagak/skating-website.git
-   cd skating-website
    ```
 
 2. **Connect to the EC2 Instance**
